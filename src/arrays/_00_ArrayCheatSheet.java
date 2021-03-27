@@ -23,7 +23,7 @@ public class _00_ArrayCheatSheet {
 			System.out.print(test1[i] + " ");
 		}
 		//7. use a for loop to make every value of the integer array a random number
-		Random r = new Random();
+		 Random r = new Random();
 		 int[] test2 = new int[51];
 		 for (int i = 0; i < test2.length; i++) {
 			 test2[i] = r.nextInt(100);
